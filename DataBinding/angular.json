@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "DataBinding"
+    }
+  },
+  "defaultProject": "DataBinding",
+  "cli": {
+    "analytics": "b616e406-77a9-4bbd-bf26-2a981203dac3"
+  }
 }
