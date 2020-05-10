@@ -6,13 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./string-interpolation.component.css']
 })
 export class StringInterpolationComponent implements OnInit {
-  
+
   Name: String = "Shani Kumar Gupta";
   UniversityName: String = "GLA University";
   Course: String = "B.Tech";
   Branch: String = "Computer Science";
   UniversityRoll: Number = 171500308;
   Address = "HH-321 Hindalco Colony Renukoot";
+
+  imgUrl: String = "./assets/images/171500308.jpg";
 
 
   constructor() { }
