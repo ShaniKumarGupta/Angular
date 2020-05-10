@@ -1,0 +1,8 @@
+*************************************** Basic Angular Command ************************************************
+**************************************************************************************************************
+
+1) Create Angular Project at specified directory
+>ng new applicationName
+
+2)To start Angular services or start angular project
+>ng serve -o

@@ -1,0 +1,16 @@
+********************************************Angular Installation Process*******************************
+*******************************************************************************************************
+
+1- nodejs
+
+node -v (Check wether node.js is installed or not on you system )
+
+2- npm
+
+npm -v (Check wether node package manager installed or not on your system)
+
+3- angular CLI (Angular Command Line Interface)
+
+npm install @angular/cli -g (Command to install angular CLI)
+
+ng -v (Check wether angular installed or not on your system)
