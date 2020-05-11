@@ -25,6 +25,15 @@ export class StringInterpolationComponent implements OnInit {
     Address1 : "L-512 Hindalco Colony",
   }
 
+  num1: Number = 12;
+  num2: Number = 23;
+
+  status: boolean = false;
+
+  myFullName(){
+    return "My Name is "+ this.Name;
+  }
+
 
   constructor() { }
 
