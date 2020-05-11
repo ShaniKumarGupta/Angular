@@ -16,6 +16,15 @@ export class StringInterpolationComponent implements OnInit {
 
   imgUrl: String = "./assets/images/171500308.jpg";
 
+  // Create User Object
+
+  User = {
+    Name1 : "Aman Kumar",
+    Course1 : "B.Pharma",
+    College1 : "GLA University",
+    Address1 : "L-512 Hindalco Colony",
+  }
+
 
   constructor() { }
 
