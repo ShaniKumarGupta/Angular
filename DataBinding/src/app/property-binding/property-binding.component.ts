@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertyBindingComponent implements OnInit {
 
+  Name: String = "Shani Kumar Gupta";
+
   constructor() { }
 
   ngOnInit(): void {
