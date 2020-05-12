@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class PropertyBindingComponent implements OnInit {
 
   Name: String = "Shani Kumar Gupta";
+  College: String = "GLA University";
+  type1: String =  "password";
 
   constructor() { }
 
