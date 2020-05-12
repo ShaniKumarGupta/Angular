@@ -14,6 +14,7 @@ export class PropertyBindingComponent implements OnInit {
   color1: String = "color";
   radio1: String = "radio";
   sub: string = "submit";
+  status: boolean = true; 
 
   constructor() { }
 
