@@ -1,6 +1,13 @@
-<div class="jumbotron">
-    <p><b>Event-Binding works!</b></p>
-    <button (click)="onAddCart()">Add To Cart</button>
-    <h3>{{msg}}</h3>
+<div class="container">
+    <div class="jumbotron">
+        <p><b>Event-Binding works!</b></p>
+        <button (click)="onAddCart()">Add To Cart</button>
+        <h3>{{msg}}</h3>
+    </div>
+    <div class="jumbotron">
+        <h3>Perform click event on Input tag</h3>
+        <input type="text" value="mytext" (click)="onInputClick($event)">
+    </div>
 </div>
+
 

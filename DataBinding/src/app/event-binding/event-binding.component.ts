@@ -13,6 +13,10 @@ export class EventBindingComponent implements OnInit {
     this.msg = "Product is added into cart";
   }
 
+  onInputClick(event){
+    console.log(event.target.value);
+  }
+
   constructor() { }
 
   ngOnInit(): void {
