@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventBindingComponent implements OnInit {
 
+  msg:string = "";
+
+  onAddCart(){
+    this.msg = "Product is added into cart";
+  }
+
   constructor() { }
 
   ngOnInit(): void {
