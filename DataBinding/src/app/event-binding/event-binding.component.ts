@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EventBindingComponent implements OnInit {
 
   msg:string = "";
+  msg1:string = "";
 
   onAddCart(){
     this.msg = "Product is added into cart";
@@ -15,6 +16,10 @@ export class EventBindingComponent implements OnInit {
 
   onInputClick(event){
     console.log(event.target.value);
+  }
+
+  onAddCart1(event){
+    this.msg1 = event.target.value + " added in your cart";
   }
 
   constructor() { }
